@@ -77,8 +77,3 @@ Maintained by **Chungmann Kim**, an applied development economist and data scien
 * Methods: causal inference, NLP, geospatial analysis, and machine learning
 
 ```
-
----
-
-👉 Would you like me to also draft a **“longer project showcase” page** (in `/projects/01_end_to_end_policy_analysis/README.md`) so you can link from the short README to a deeper dive? That way the main README stays sleek but visitors can explore details if they want.
-```
