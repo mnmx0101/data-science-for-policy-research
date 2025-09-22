@@ -23,3 +23,10 @@ The goal is to provide a hands-on toolkit that bridges the gap between data scie
 
 ## Repository Organization
 
+/
+├── tutorials/
+│ ├── phase_1_foundations/
+│ └── phase_2_applied_methods/
+├── projects/
+│ └── 01_end_to_end_policy_analysis/
+└── resources/
