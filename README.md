@@ -4,7 +4,7 @@ Welcome to this repository of resources and projects demonstrating the applicati
 This collection is designed to provide **practical examples** and **reusable code** for analyzing complex problems with modern data tools.
 
 ---
-
+ 
 ## About This Repository
 
 This repository is a practical guide to the **data science workflow**, offering reusable code and project examples.  
