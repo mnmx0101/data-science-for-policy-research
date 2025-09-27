@@ -82,33 +82,37 @@ The objective is to bridge the gap between **analytical methods** and **real-wor
 
 ---
 
-## Project Example: Using AI to Follow the Money in a Humanitarian Crisis [*Link to sample project*](https://mnmx0101.github.io/chungmann_kim/files/ChungmannKim_IPCAID.pdf) 🇦🇫
+## Project: Evaluating Humanitarian Aid Responsiveness with AI-NLP and Causal Inference [*Link to sample project*](https://mnmx0101.github.io/chungmann_kim/files/ChungmannKim_IPCAID.pdf)
 
-**The Big Question:** When a food crisis hits a country like Afghanistan, we see headlines and hear about billions in aid. But does that money actually get to the specific regions where people are starving? For decades, answering this was nearly impossible.
+### Background and Objective
 
-**The Challenge:** The data is a mess. Information on where aid goes is buried in thousands of different reports, PDFs, and unstructured text files. There's no single, clean map of financial flows. 
-
----
-
-**Your Mission: Become a Data Detective** 🕵️
-
-This is where you come in. Your goal is to use cutting-edge data science to find the truth.
-
-* **Unlock the Data:** First, you'll train a **Natural Language Processing (NLP)** model to read and understand thousands of humanitarian reports, automatically pulling out the key information: Who sent the money? How much was it? And most importantly, *where* did it go?
-* **Build the Map:** Using this data, you'll construct something that has never existed before: a detailed, **subnational map of aid flows**, showing exactly which provinces received funding and when.
-* **Find the Cause:** Finally, you'll use a powerful method called **Staggered Difference-in-Differences** to move beyond correlation. This allows you to prove whether the official crisis alerts are *actually causing* the flow of aid, or if something else is going on.
+The effective allocation of humanitarian aid is critical for mitigating acute food security crises. However, it remains empirically unclear whether institutional crisis alerts, like the **Integrated Food Security Phase Classification (IPC)**, trigger a timely and sufficient aid response at the subnational level where crises are most acute. This has been historically difficult to assess due to the lack of granular data on financial flows, which are often contained in unstructured formats. This project's objective is to provide the first causal, subnational evaluation of this critical link in the humanitarian system.
 
 ---
 
-**What You'll Discover:**
+### Methodology
 
-Your analysis will likely reveal a complex story. You might find that aid does rush in after an emergency is declared, but that the amount is **critically insufficient** compared to the number of people in need. You could uncover that the response is **short-lived**, fading just when a region's crisis is far from over.
+A multi-stage research design was employed to overcome these data and analytical challenges.
 
-**Your Impact:**
-
-This isn't just a technical exercise. By transforming messy data into clear, causal evidence, your work can provide organizations like the UN and major donors with the proof they need to **improve how aid is delivered**. This is how data science can enhance transparency, save money, and, ultimately, save lives. 🌍
+* **Dataset Construction:** A novel, provincial-level panel dataset of humanitarian aid flows in Afghanistan was constructed from the UN's Financial Tracking Service. **Natural Language Processing (NLP)** and geospatial algorithms were used to systematically parse unstructured project descriptions, georeference financial flows to their final destinations, and classify their programmatic purpose. 💻
+* **Causal Analysis:** A **Staggered Difference-in-Differences** model was used to estimate the causal impact of an escalation to a severe food security emergency (IPC Phase 4) on the volume and timing of aid allocation, controlling for potential confounding factors.
 
 ---
+
+### Key Findings
+
+The analysis reveals that while a crisis alert is an effective trigger, the subsequent response has critical shortcomings.
+
+* An IPC alert is associated with a **rapid and statistically significant** increase in aid.
+* However, this response is **transitory**, diminishing quickly after the initial months.
+* The aid allocated is also **insufficient**, falling substantially short of the estimated per capita need (the "need gap").
+* Finally, aid responsiveness **varies significantly** across different donors and funding types.
+
+---
+
+### Contribution and Impact
+
+This research provides the **first granular, causal evidence** on subnational aid responsiveness to formal crisis signals. The findings offer a data-driven foundation for policymakers and humanitarian organizations to improve aid targeting, enhance transparency, and strengthen accountability in crisis response, highlighting the gap between signaling an emergency and sufficiently addressing it. 🌍
 
 ## Getting Started
 
