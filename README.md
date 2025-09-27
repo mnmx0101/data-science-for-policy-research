@@ -7,7 +7,7 @@ This collection is designed to provide **practical examples** and **reusable cod
  
 ## About This Repository
 
-This repository is a practical guide to the **data science workflow**, offering reusable code and project examples.  
+This repository is a practical guide to the **data science workflow**, providing reusable code and project examples.  
 It is structured in three phases, each designed to build upon the last:
 
 - **Phase 1: Foundations**  
@@ -80,24 +80,24 @@ The goal is to provide a **hands-on toolkit** that bridges the gap between **met
 
 ---
 
-## Example Project: Evaluating Humanitarian Aid with NLP and Causal Inference
+## Project: Evaluating Aid Responsiveness with NLP and Causal Inference 🇦🇫
 
-**Policy Question:** How effectively does humanitarian aid respond to food security emergencies in Afghanistan?
+**Policy Question:** Do institutional crisis alerts, like the Integrated Food Security Phase Classification (IPC), trigger a timely and sufficient humanitarian aid response in Afghanistan?
 
-**Challenge:** Aid flow data is fragmented and buried in thousands of PDF reports.  
+**Challenge:** Official aid data often lacks the **subnational detail** needed to track financial flows to specific crisis-affected regions, making it difficult to evaluate the effectiveness of crisis response systems.
 
-**Solution:**  
-- Used **Natural Language Processing (NLP)** to parse UN OCHA reports and build a **novel, geo-coded dataset** of humanitarian funding at subnational level.  
-- Applied **Staggered Difference-in-Differences** to estimate the causal effect of IPC emergency declarations on aid allocation.  
-- Controlled for confounding factors to isolate the effect.
+**Solution:**
+* Used **Natural Language Processing (NLP)** and geospatial algorithms to construct a novel, **provincial-level dataset** of aid flows from the UN's Financial Tracking Service. 💻
+* Applied a **Staggered Difference-in-Differences** model to causally estimate the impact of a severe food security emergency on aid allocation.
 
-**Key Findings:**  
-- Aid increases after IPC Phase 4 alerts.  
-- However, per-capita allocations remain **insufficient relative to need**, underscoring inefficiencies in targeting and timeliness.  
+**Key Findings:**
+* A crisis alert triggers a **rapid and statistically significant** increase in aid.
+* However, this response is **transitory**, diminishing quickly after the initial months.
+* The aid is also **insufficient**, falling substantially short of the estimated need (the "need gap").
+* Responsiveness **varies significantly** across different donors and funding types.
 
-**Impact:**  
-This analysis provides **data-driven evidence** to improve transparency, targeting, and accountability in humanitarian response.
-
+**Impact:**
+This study provides the **first granular, causal evidence** on subnational aid responsiveness, highlighting the critical gap between signaling an emergency and sufficiently addressing it. The findings offer a data-driven foundation for improving aid allocation policies and enhancing accountability in humanitarian finance.
 ---
 
 ## Getting Started
