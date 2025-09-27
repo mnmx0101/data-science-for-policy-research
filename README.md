@@ -82,23 +82,31 @@ The objective is to bridge the gap between **analytical methods** and **real-wor
 
 ---
 
-## Project: Evaluating Aid Responsiveness with NLP and Causal Inference 🇦🇫
+## Project Example: Using AI to Follow the Money in a Humanitarian Crisis [*Link to sample project*](https://mnmx0101.github.io/chungmann_kim/files/ChungmannKim_IPCAID.pdf) 🇦🇫
 
-**Policy Question:** Do institutional crisis alerts, like the Integrated Food Security Phase Classification (IPC), trigger a timely and sufficient humanitarian aid response in Afghanistan?
+**The Big Question:** When a food crisis hits a country like Afghanistan, we see headlines and hear about billions in aid. But does that money actually get to the specific regions where people are starving? For decades, answering this was nearly impossible.
 
-**Challenge:** Official aid data often lacks the **subnational detail** needed to track financial flows to specific crisis-affected regions, making it difficult to evaluate the effectiveness of crisis response systems.
+**The Challenge:** The data is a mess. Information on where aid goes is buried in thousands of different reports, PDFs, and unstructured text files. There's no single, clean map of financial flows. 
 
-**Solution:**  
-- Used **Natural Language Processing (NLP)** to parse UN OCHA reports and build a **novel, geo-coded dataset** of humanitarian funding at subnational level.  
-- Applied **Staggered Difference-in-Differences** to estimate the causal effect of IPC emergency declarations on aid allocation.  
-- Controlled for confounding factors to isolate the effect.
+---
 
-**Key Findings:**  
-- Aid increases after IPC Phase 4 alerts.  
-- However, per-capita allocations remain **insufficient relative to need**, underscoring inefficiencies in targeting and timeliness.  
+**Your Mission: Become a Data Detective** 🕵️
 
-**Impact:**  
-This analysis provides **data-driven evidence** to improve transparency, targeting, and accountability in humanitarian response.
+This is where you come in. Your goal is to use cutting-edge data science to find the truth.
+
+* **Unlock the Data:** First, you'll train a **Natural Language Processing (NLP)** model to read and understand thousands of humanitarian reports, automatically pulling out the key information: Who sent the money? How much was it? And most importantly, *where* did it go?
+* **Build the Map:** Using this data, you'll construct something that has never existed before: a detailed, **subnational map of aid flows**, showing exactly which provinces received funding and when.
+* **Find the Cause:** Finally, you'll use a powerful method called **Staggered Difference-in-Differences** to move beyond correlation. This allows you to prove whether the official crisis alerts are *actually causing* the flow of aid, or if something else is going on.
+
+---
+
+**What You'll Discover:**
+
+Your analysis will likely reveal a complex story. You might find that aid does rush in after an emergency is declared, but that the amount is **critically insufficient** compared to the number of people in need. You could uncover that the response is **short-lived**, fading just when a region's crisis is far from over.
+
+**Your Impact:**
+
+This isn't just a technical exercise. By transforming messy data into clear, causal evidence, your work can provide organizations like the UN and major donors with the proof they need to **improve how aid is delivered**. This is how data science can enhance transparency, save money, and, ultimately, save lives. 🌍
 
 ---
 
