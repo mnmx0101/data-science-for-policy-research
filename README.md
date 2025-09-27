@@ -1,10 +1,13 @@
 # Data Science: Tools & Projects
 
 Welcome to this repository of resources and projects demonstrating the application of data science.  
-This collection is designed to provide **practical examples** and **reusable code** for analyzing complex problems with modern data tools.
+This collection is designed to provide **practical examples** and **reusable code** for analyzing complex problems with modern data tools.  
+
+It reflects the know-how and skills I have developed in my role as a researcher and data scientist at the **Food and Agriculture Organization (FAO)**.  
+The goal is to share a **practical, ready-to-use toolkit** for anyone interested in applying quantitative analysis to inform **policy decisions**.
 
 ---
- 
+
 ## About This Repository
 
 This repository is a practical guide to the **data science workflow**, providing reusable code and project examples.  
@@ -19,12 +22,11 @@ It is structured in three phases, each designed to build upon the last:
 - **Phase 3: Project Development**  
   Synthesizes all skills into the creation of end-to-end projects and data-driven tools, emphasizing translation of findings into actionable outcomes.
 
-The goal is to provide a **hands-on toolkit** that bridges the gap between **methods** and **real-world policy questions**.
+The objective is to bridge the gap between **analytical methods** and **real-world policy challenges**.
 
 ---
 
 ## Repository Organization
-
 
 - **/tutorials** – Step-by-step Jupyter notebooks on core concepts  
 - **/projects** – End-to-end analyses of real-world problems  
@@ -48,7 +50,7 @@ The goal is to provide a **hands-on toolkit** that bridges the gap between **met
 - **Natural Language Processing (NLP)**: spaCy and Hugging Face transformers for text extraction, themes, and sentiment  
 - **Geospatial Analysis**: geopandas for mapping and spatial analytics  
 - **Causal Inference**: methods like Difference-in-Differences and Matching for policy evaluation  
-- **Large Language Models (LLMs)**: advanced summarization, thematic analysis, document processing  
+- **Large Language Models (LLMs)**: advanced summarization, thematic analysis, document processing, chatbot development  
 - **Responsible AI**: transparency, accountability, and fairness in sensitive domains  
 
 ### Phase 3: Applied Policy Projects & Tool Development
@@ -65,7 +67,7 @@ The goal is to provide a **hands-on toolkit** that bridges the gap between **met
    Example: *"What is the causal impact of a conditional cash transfer program on school attendance rates in District A?"*
 
 2. **Acquire and Prepare Data**  
-   Gather, clean, and integrate diverse sources (survey data, remote sensing, admin records).  
+   Gather, clean, and integrate diverse sources (survey data, remote sensing, administrative records).  
    Real-world data is messy — persistence and creativity are key.
 
 3. **Select Methods**  
@@ -86,18 +88,18 @@ The goal is to provide a **hands-on toolkit** that bridges the gap between **met
 
 **Challenge:** Official aid data often lacks the **subnational detail** needed to track financial flows to specific crisis-affected regions, making it difficult to evaluate the effectiveness of crisis response systems.
 
-**Solution:**
-* Used **Natural Language Processing (NLP)** and geospatial algorithms to construct a novel, **provincial-level dataset** of aid flows from the UN's Financial Tracking Service. 💻
-* Applied a **Staggered Difference-in-Differences** model to causally estimate the impact of a severe food security emergency on aid allocation.
+**Solution:**  
+- Used **Natural Language Processing (NLP)** to parse UN OCHA reports and build a **novel, geo-coded dataset** of humanitarian funding at subnational level.  
+- Applied **Staggered Difference-in-Differences** to estimate the causal effect of IPC emergency declarations on aid allocation.  
+- Controlled for confounding factors to isolate the effect.
 
-**Key Findings:**
-* A crisis alert triggers a **rapid and statistically significant** increase in aid.
-* However, this response is **transitory**, diminishing quickly after the initial months.
-* The aid is also **insufficient**, falling substantially short of the estimated need (the "need gap").
-* Responsiveness **varies significantly** across different donors and funding types.
+**Key Findings:**  
+- Aid increases after IPC Phase 4 alerts.  
+- However, per-capita allocations remain **insufficient relative to need**, underscoring inefficiencies in targeting and timeliness.  
 
-**Impact:**
-This study provides the **first granular, causal evidence** on subnational aid responsiveness, highlighting the critical gap between signaling an emergency and sufficiently addressing it. The findings offer a data-driven foundation for improving aid allocation policies and enhancing accountability in humanitarian finance.
+**Impact:**  
+This analysis provides **data-driven evidence** to improve transparency, targeting, and accountability in humanitarian response.
+
 ---
 
 ## Getting Started
@@ -105,4 +107,4 @@ This study provides the **first granular, causal evidence** on subnational aid r
 Clone this repository:
 
 ```bash
-git clone https://github.com/YourUsername/YourRepositoryName.git
+git clone https://github.com/mnmx0101/data-science-for-policy-research.git
